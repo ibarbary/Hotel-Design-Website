@@ -1,2 +1,2 @@
 # Hotel-Design-Website
-A website for designing hotel rooms using modern and elegant designs
+Built a website for designing modern and elegant hotels

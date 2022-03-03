@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Design</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <h1 class="logo">eleven</h1>
+        <div id="menu">
+          <li class="fa-solid fa-x" id="x" onclick="hideMenu()"></li>
+
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Bedroom</a></li>
+            <li><a href="#">Kitchen</a></li>
+            <li><a href="#">Dining</a></li>
+            <li><a href="#">Backyard</a></li>
+          </ul>
+        </div>
+        <li class="fa-solid fa-bars" id="bar" onclick="showMenu()"></li>
+      </div>
+
+      <div class="content">
+        <h1>Design your Hotel</h1>
+        <p><span>" </span>Awaken the Artist inside!!<span> "</span></p>
+        <button>Design</button>
+        <button>Watch our work</button>
+      </div>
+    </div>
+    <script>
+      let m = document.getElementById("menu");
+
+      function showMenu() {
+        m.style.left = "0";
+      }
+
+      function hideMenu() {
+        m.style.left = "-100%";
+      }
+    </script>
+  </body>
+</html>

@@ -172,8 +172,5 @@ button:hover {
 @media (max-width: 500px) {
   button{
       width: 300px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
     }
 }
